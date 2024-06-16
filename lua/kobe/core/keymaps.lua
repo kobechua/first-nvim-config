@@ -13,5 +13,4 @@ keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", {desc = "Open new tab"})
 keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", {desc = "Close tab"})
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", {desc = "Open current buffer in new tab"})
 
-keymap.set("n", "<leader>n", "<cmd>NvimTreeOpen<CR>", { desc = "Open NvimTree"})
 
