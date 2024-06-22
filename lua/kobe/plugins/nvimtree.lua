@@ -52,6 +52,7 @@ return {
 		local keymap = vim.keymap
 
 		keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
+        -- keymap.set("n", "<C-k>", "", {desc = "Disable file info"})
 
 		-- close nvim-tree when quitting neovim
 		vim.api.nvim_create_autocmd("QuitPre", {
